@@ -1,0 +1,20 @@
+type Forex {
+	id: ID!,
+	code: String,
+	type: String,
+	price: Float,
+	high: Float,
+	low: Float,
+	percentage: Float,
+	bias: String,
+}
+
+type Query {
+	forexRates(count: Int):[Forex]
+	fx(code: String):Forex
+}
+
+
+type Mutation {
+	createFX(code: String!, type: String!, price: Float!, high: Float, low: Float, percentage: Float, bias:String):Forex
+}
