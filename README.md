@@ -1,4 +1,4 @@
-# graphql-spring
+# graphql-spring [![CircleCI](https://circleci.com/gh/kencrisjohn/graphql-spring.svg?style=svg)](https://circleci.com/gh/kencrisjohn/graphql-spring)
 
 
 A demo for spring boot project which uses [graphql](https://graphql.org/) they call it a new rest.
